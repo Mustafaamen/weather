@@ -1,0 +1,129 @@
+body{
+    background-color: #1E202B !important;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+
+section.header{
+    background-image: url(./../banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    
+}
+/* nav{
+    color: white  ;
+} */
+ .content h5{
+    color: white;  
+      margin-bottom: 5px !important;
+    font-size: 1.1428571429em;
+ }
+ .content small{
+    font-size: 10px;
+    display: block;
+    color: #bfc1c8;
+ }
+/* ul .nav-item{
+    color: white !important;
+}
+
+li{
+    padding: 0 !important;
+    margin-left: 20px !important;
+    color: white !important;
+}
+li a{
+    padding: 5px 25px;
+    border-radius: 30px;
+    font-weight: 400;
+    color: white !important;
+}
+.navbar-nav .nav-link.active{
+    border-color: #009ad8 ;
+    color: #009ad8 !important ;
+    border: 2px solid crimson;
+
+} */
+ .head{
+    background-color: #2D303D;
+ }
+ .body{
+    background-color: #323544 !important;
+ }
+ /* .deg{
+    
+font-size: 
+90px;
+ } */
+ /* .imge{
+    display: inline-block;
+    width: 40px;
+ } */
+ .head-2{
+    background-color: #222530 ;
+ }
+ .body-2{
+    background-color: #262936;
+ }
+
+ .hamosha{
+    margin-top: -160px;
+ }
+  li a{
+    /* padding: 5px 25px !important;
+    color: white !important;
+    margin-left: 10px;
+    font-size: small !important;
+    font-size: 900 !important; */
+    /* transition: all .2s !important; */
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white !important;
+    transition: 0.3s ease !important;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: small !important;
+
+  }
+  li a.active{
+    color: #009ad8 !important;
+    border: #009ad8 2px solid;
+    border-radius: 35px;
+    font-weight: 900 !important;
+  }
+  li:hover a{
+    color: #009ad8 !important;
+    border: #009ad8 1px solid;
+    border-radius: 25px;
+  }
+
+  @media (max-width: 640px) {
+.navbar-nav{
+    width: fit-content !important;
+    margin: auto !important;
+    text-align: center;
+    margin-bottom: 5px !important;
+}
+.collapse{
+    background-color: #262936 !important;
+    
+}
+.container{
+    width: 100% !important;
+
+}
+li:hover a{
+    color: #009ad8 !important;
+    border: #009ad8 0px solid;
+    border-radius: 25px;
+  }
+  li a.active{
+    color: #009ad8 !important;
+    border: #009ad8 0px solid
+  }
+  }
