@@ -127,3 +127,19 @@ li:hover a{
     border: #009ad8 0px solid
   }
   }
+  input{
+  background-color: #1E202B !important;
+  padding: 10px !important;
+  border-radius: 25px !important;
+  color: white !important;
+  position: relative;
+  }
+  input::placeholder{
+    color: #6B6B6B !important;
+  }
+  .btn{
+    padding: 8px 30px;
+    position: absolute;
+    top: 2px;
+    right: 17px;
+  }
